@@ -2,7 +2,7 @@ import simpleRestProvider from "ra-data-simple-rest";
 import { fetchUtils } from "ra-core";
 
 
-const apiUrl = 'http://localhost:8000/api'
+const apiUrl = 'http://localhost:3000/api'
 
 const httpClient = (url, options = {}) => {
   if (!options.headers) {
